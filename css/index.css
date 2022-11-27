@@ -25,10 +25,6 @@ header {
   margin-bottom: 23px;
 }
 
-main {
-  background-color: gray;
-}
-
 .header_links {
   margin-top: 6px;
   flex-flow: row nowrap;
@@ -47,11 +43,59 @@ main {
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  
 }
 
 .header_links a:hover {
-    color: #FD8558
-  }
+  color: #fd8558;
+}
 
 /* Header End */
+
+.perfomance {
+  width: 100%;
+  height: 766px;
+  background-image: url(/images/perfomance.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.perfomance p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 85px;
+  color: white;
+}
+
+.perfomance_buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.perfomance_buttons a {
+  text-decoration: none;
+  color: #ffffff;
+  border: solid #fd8558;
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.button_startNow {
+    background-color: #fd8558;
+}
